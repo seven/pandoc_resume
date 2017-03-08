@@ -1,0 +1,32 @@
+all: html pdf docx
+
+pdf: duanwei_cv_zh_CN.pdf
+duanwei_cv_zh_CN.pdf: duanwei_cv_zh_CN.md
+	pandoc --standalone --template style_chmduquesne.tex \
+	--from markdown --to context \
+	-V papersize=A4 \
+	-o duanwei_cv_zh_CN.tex duanwei_cv_zh_CN.md; \
+	context duanwei_cv_zh_CN.tex
+
+html: duanwei_cv_zh_CN.html
+duanwei_cv_zh_CN.html: style_chmduquesne.css duanwei_cv_zh_CN.md
+	pandoc --standalone -H style_chmduquesne.css \
+        --from markdown --to html \
+        -o duanwei_cv_zh_CN.html duanwei_cv_zh_CN.md
+
+docx: duanwei_cv_zh_CN.docx
+duanwei_cv_zh_CN.docx: duanwei_cv_zh_CN.md
+	pandoc -s -S duanwei_cv_zh_CN.md -o duanwei_cv_zh_CN.docx
+
+rtf: duanwei_cv_zh_CN.rtf
+duanwei_cv_zh_CN.rtf: duanwei_cv_zh_CN.md
+	pandoc -s -S duanwei_cv_zh_CN.md -o duanwei_cv_zh_CN.rtf
+
+clean:
+	rm duanwei_cv_zh_CN.html
+	rm duanwei_cv_zh_CN.tex
+	rm duanwei_cv_zh_CN.tuc
+	rm duanwei_cv_zh_CN.log
+	rm duanwei_cv_zh_CN.pdf
+	rm duanwei_cv_zh_CN.docx
+	rm duanwei_cv_zh_CN.rtf

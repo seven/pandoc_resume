@@ -1,32 +1,32 @@
 all: html pdf docx rtf
 
-pdf: resume.pdf
-resume.pdf: resume.md
+pdf: duanwei_cv.pdf
+duanwei_cv.pdf: duanwei_cv.md
 	pandoc --standalone --template style_chmduquesne.tex \
 	--from markdown --to context \
 	-V papersize=A4 \
-	-o resume.tex resume.md; \
-	context resume.tex
+	-o duanwei_cv.tex duanwei_cv.md; \
+	context duanwei_cv.tex
 
-html: resume.html
-resume.html: style_chmduquesne.css resume.md
+html: duanwei_cv.html
+duanwei_cv.html: style_chmduquesne.css duanwei_cv.md
 	pandoc --standalone -H style_chmduquesne.css \
         --from markdown --to html \
-        -o resume.html resume.md
+        -o duanwei_cv.html duanwei_cv.md
 
-docx: resume.docx
-resume.docx: resume.md
-	pandoc -s -S resume.md -o resume.docx
+docx: duanwei_cv.docx
+duanwei_cv.docx: duanwei_cv.md
+	pandoc -s -S duanwei_cv.md -o duanwei_cv.docx
 
-rtf: resume.rtf
-resume.rtf: resume.md
-	pandoc -s -S resume.md -o resume.rtf
+rtf: duanwei_cv.rtf
+duanwei_cv.rtf: duanwei_cv.md
+	pandoc -s -S duanwei_cv.md -o duanwei_cv.rtf
 
 clean:
-	rm resume.html
-	rm resume.tex
-	rm resume.tuc
-	rm resume.log
-	rm resume.pdf
-	rm resume.docx
-	rm resume.rtf
+	rm duanwei_cv.html
+	rm duanwei_cv.tex
+	rm duanwei_cv.tuc
+	rm duanwei_cv.log
+	rm duanwei_cv.pdf
+	rm duanwei_cv.docx
+	rm duanwei_cv.rtf
