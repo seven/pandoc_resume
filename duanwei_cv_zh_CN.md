@@ -1,16 +1,16 @@
-duan wei
+段巍
 ============
 
-Chengdu, China | <seven.duan@gmail.com> | 86 (0)189 8061 3523 
+成都 | <seven.duan@gmail.com> | 86 (0)189 8061 3523 
 ---|---|---
 
-Self-Assessment 
+自我评价
 ---------------
-* Have strong knowledge of full stack system development in J2EE.
-* Have passion for computer science especially on algorithms, data structure, security and math.
-* Have 10 years agile software development experience as well as good technical lead and project Management background.
+* 精通Java前端以及后端开发.
+* 热爱计算机科学，算法，数据结构，安全与数学等.
+* 10年敏捷开发实践经验，具备带团队和项目管理经验.
 
-Skills
+技能
 ---------
 
 |||||
@@ -21,55 +21,40 @@ Oracle|MySQL|PostgreSQL|**Linux**|**storage**|Algorithm
 openssl|||||
 |||||
 
-Experience
+工作经历
 ----------
 
-2012/06–now
-:   Senior Software Engineer **DellEMC**,Chengdu 
+2012/06–现在
+:   高级软件开发工程师 **DellEMC**,成都
 
-* Unity, Infrastructure Service 
-
-    * OEM/L10N/I18N/OBS/GUI, scrum master and technical lead
-        * Lead team on feature delivering following scrum practice.
-        * Architect auto-rebranding system with python stack to OEM customers.
-        * Enabled the product adapted to various countries and regions.
-        * Created performance metrics visualization web pages with Ext-js.
-        * Upgraded Ext-js 4 to 5 in GUI framework.
-
-* VNX2, ControlPath 
-    * Unisphere, Java developer and front-end specialist
-        * Created storage management GUI application with Java swing.
-    * Celerra, technical lead 
-        * Lead team on file storage service design and development with **Java**, **Perl**, **Eiffel** and **C++**.
-        * Provided technical mentoring on **linux**, **apache** and **J2EE**.
+* Unity/VNX2 **J2EE**  **Ext-js**
+    * 存储管理系统开发
 
 2011/01–2012/06
-:   Senior Software Engineer **Huawei**,Chengdu
+:   高级软件开发工程师 **华为**,成都
 
-* U-Net, **C#** developer
-    * Implement wireless network planning algorithm with **C#**
+* U-Net, **C#** 
+    * 网络规划算法软件开发
 
-* eSAU, **C++** developer
-    * Built MDX database application with **MySQL**.
+* eSAU, **C++** 
+    * 网络优化数据采集系统开发
 
 2010/01–2011/01
-:   Senior Software Engineer **Nokia**,Chengdu
+:   高级软件开发工程师 **Nokia**,成都
 
-* iGMLC, **Java** developer
-    * Automated JMS test cases with **JMeter**
-    * Built HA clustering **MySQL** and **JBoss**.
+* iGMLC, **Java** **MySQL** **JBoss**
+    * 电信系统数据库集群应用开发
 
 2007/07–2011/01
-:   Software Engineer **OOCL**,Zhuhai
+:   高级软件开发工程师 **OOCL**, 珠海
 
-* CargoSmart, **J2EE** full stack developer
-    * Created web application with **jQuery** and **RESTful API**.
-    * Built shipping management service with **Spring** and **Oracle**.
+* CargoSmart, **J2EE** **jQuery**
+    * 航运管理系统web应用开发
 
-Education
+教育经历
 ---------
 
 2002–2007 
-:   **Bachelor/Master, Information Science**;  Wuhan University
+:   **学士/硕士, 信息管理**;  武汉大学
 
 
